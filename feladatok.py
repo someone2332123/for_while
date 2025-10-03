@@ -1,3 +1,5 @@
+import random
+
 def feladat_1():
     i = 0
     for i in range(0, 151, 2):
@@ -34,3 +36,36 @@ def feladat_4():
         szam= int(input("Adj meg egy kétjegyű páros számot!: "))
     for i in range(szam):
         print("*", end=" ")
+
+
+def feladat_5():
+    szam = int(input("Pozitív páratlan szám: "))
+    while not (szam >0 and szam% 2 == 1 ):
+        szam = int(input("Hiba! Pozitív páratlan szám: "))
+
+def feladat_10():
+
+    db = 0
+    for i in range(10):
+        veletlen = random.randint(10, 20)
+        print(veletlen, end=" ")
+        if veletlen % 10 == 1:
+            db += 1
+    print(f"\nAz 1-kre végződő számok darabszáma: {db}.")
+
+
+def feladat_10atirat():
+
+    db = 0
+    #for i in range(10):
+    i =0
+    while i < 10
+    veletlen = random.randint(10, 20)
+    print(veletlen, end=" ")
+    if veletlen % 10 == 1:
+            db += 1
+    print(f"\nAz 1-kre végződő számok darabszáma: {db}.")
+
+
+def feladat_11():
+    
